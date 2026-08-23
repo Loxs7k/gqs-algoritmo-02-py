@@ -16,13 +16,12 @@ O código está em [`main.py`](./main.py).
 # Como executar
 
 
-# 1. Clone o repositório
+1- Clone o repositório
 git clone https://github.com/Loxs7k/gqs-algoritmo-02-py.git
 cd gqs-algoritmo-02-py
 
-# 2. Execute com Python 3
+2- Execute com Python 3
 python main.py
-
 
 O programa vai exibir a cotação do dólar utilizada e pedir que você
 digite quantos dólares deseja comprar.
@@ -40,7 +39,7 @@ em reais, já com o IOF de 6% embutido no cálculo.
 
 Elemento  O que faz 
 
-class CurrencyConverter` | Agrupa os dados e a lógica da conversão em um só lugar (cotação, taxa de IOF e o cálculo) 
+class CurrencyConverter: Agrupa os dados e a lógica da conversão em um só lugar (cotação, taxa de IOF e o cálculo) 
 dolla e iof: Atributos de classe: guardam a cotação do dólar (**3.10**) e o multiplicador do IOF (**1.06**, ou seja, 6% a mais) 
 calc(quantity): Recebe a quantidade de dólares e retorna o valor total em reais: **(quantity * dolla) * iof ***
 input(): Captura a quantidade de dólares digitada pelo usuário no terminal 
