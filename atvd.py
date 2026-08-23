@@ -2,6 +2,7 @@ class CurrencyConverter:
     iof = 1.06
     dolla = 3.10
  
+    
     def calc(quantity):
         return (quantity * CurrencyConverter.dolla) * CurrencyConverter.iof
  
